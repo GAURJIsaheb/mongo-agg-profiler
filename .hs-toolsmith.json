@@ -1,0 +1,15 @@
+{
+  "hsToolsmith": true,
+  "title": "mongo-agg-profiler",
+  "pitch": "MongoDB aggregation profiler that explains pipelines and suggests indexing improvements.",
+  "language": "python",
+  "category": "CLI",
+  "keyFeatures": [
+    "Run and parse aggregate() explain plans into readable summaries",
+    "Detect common pipeline anti-patterns (unbounded $lookup, $sort after $group)",
+    "Index suggestion engine based on match/sort stages and winning plan",
+    "Compare before/after explains and output a diff report",
+    "Export reports as JSON/Markdown for PR reviews"
+  ],
+  "targetUsers": "Backend engineers optimizing MongoDB aggregations who need actionable performance hints from real explain output."
+}
